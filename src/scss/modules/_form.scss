@@ -1,0 +1,261 @@
+.l-form{
+  padding: rem(45) rem(70);
+  height: 100vh;
+  overflow: auto;
+  &--flex{
+    display: flex;
+    align-items: center;
+  }
+  font-size: rem(14.3);
+  line-height: 1.79;
+  color: $dark-grey;
+}
+.form {
+  font-size: rem(14.3);
+  line-height: 1.79;
+  color: $dark-grey;
+}
+
+.flex-end {
+  width: 100%;
+  @media (min-width:576px) {
+    width: 200px;
+  }
+}
+
+.form__into-text{
+  font-size: rem(21);
+  line-height: 1.38;
+  text-align: center;
+  color: #414141;
+  max-width: 530px;
+  margin: 0 auto 30px;
+}
+
+.l-form-group {
+  margin-bottom: rem(30);
+  &--top{
+    padding-top: 6px;
+  }
+  &--flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// .col-md-7 {
+//   background: linear-gradient(to bottom, rgba($color-primary2, .6) 10%, rgba($color-violet,.5) 90%), url('../images/cooker04.jpg');
+//   background-position: top, bottom;
+//   background-repeat: no-repeat;
+// }
+
+.login-header {
+  margin-bottom: rem(33);
+  font-size: rem(18);
+  line-height: 3;
+}
+
+.form__input {
+  display: block;
+  min-height: 40px;
+  padding: 0 rem(20);
+  border-radius: rem(35);
+  border: solid 1px $border-color;
+  background: $color-white;
+  margin-bottom: 20px;
+  &:focus{
+    border-color: rgba($color-primary1, .5);
+  }
+  &--h-30{
+    min-height: 30px;
+  }
+  &--h-40{
+    min-height: 40px;
+  }
+  &--w-150{
+    width: 150px;
+  }
+  &--w-215{
+    width: 215px;
+  }
+}
+
+.flex {
+  @media (min-width:768px) {
+    display: flex;
+  }
+}
+
+.input-flex {
+  @media (min-width:576px) {
+    display: flex;
+    width: 430px;
+  }
+}
+
+.h-50 {
+  height: 50px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form__input--lg {
+  margin-bottom: rem(15);
+  @media (min-width:768px) {
+    width: 540px;
+  }
+  @media(max-width:767px) {
+    width: 100%;
+  }
+}
+
+.form__input--md {
+  margin-bottom: rem(15);
+  @media (min-width:768px) {
+    width: 340px;
+  }
+  @media (max-width:767px) {
+    width: 100%;
+  }
+}
+
+.media-width {
+  @media (max-width:767px) {
+    width: 100%;
+  }
+}
+
+.form__input--sm {
+  width: 20%;
+}
+
+
+
+.form__input--xs {
+  width: 11%;
+}
+
+.form__file-input {
+  opacity: 0;
+  display: block;
+  width: rem(67)
+}
+
+.form__textarea {
+  height: rem(110);
+  border-radius: rem(10);
+}
+
+.form__input--password > input {
+  width:calc(100% - 30px);
+  border: none;
+  height: 100%;
+}
+
+.password__eye-icon {
+  font-size: 1.52rem;
+  line-height: 2.5rem;
+  cursor: pointer;
+  svg{
+    width: 24px;
+    height: 24px;
+    fill: #9b9b9b;
+    vertical-align: middle;
+  }
+}
+
+.form__footer {
+  text-align: center;
+}
+
+.input-edit{
+  display: block;
+  margin: 10px 0;
+}
+
+.input-select {
+  font-size: rem(14);
+  line-height: 1.79;
+  color: $dark-grey;
+  // height: rem(30);
+  width: rem(210);
+  cursor: pointer;
+
+  &--sm {
+    width: rem(110);
+  }
+}
+
+.greater-than {
+  display:flex;
+  align-items:center;
+  margin: auto rem(5);
+  width: rem(12);
+}
+
+.modal-form{
+  width: 60%;
+}
+
+// .form-input {
+//     display: block;
+//     width: 540px;
+//     height: 3.125rem;
+//     padding: 0 1.25rem;
+//     border-radius: 2.1875rem;
+//     border: solid 1px #c4c4c4;
+//     background: #fff;
+//     margin-bottom: 20px;
+// }
+
+// .form-input2 {
+//   display: block;
+//   width: 340px;
+//   height: 3.125rem;
+//   padding: 0 1.25rem;
+//   border-radius: 2.1875rem;
+//   border: solid 1px #c4c4c4;
+//   background: #fff;
+//   margin-bottom: 20px;
+// }
+
+// .form-input3 {
+//   display: block;
+//   width: 200px;
+//   height: 3.125rem;
+//   padding: 0 1.25rem;
+//   border-radius: 2.1875rem;
+//   border: solid 1px #c4c4c4;
+//   background: #fff;
+//   margin-bottom: 20px;
+//   margin-right: 30px;
+// }
+
+// .brief-input {
+//   height: 110px;
+//   display: block;
+//   width: 540px;
+//   padding: 0 1.25rem;
+//   border-radius: 15px;
+//   border: solid 1px #c4c4c4;
+//   background: #fff;
+//   margin-bottom: 20px;
+// }
+
+// .select-input{
+//   margin-bottom: rem(15);
+// }
+
+.blugin-select{
+  width: 192px;
+  height: 40px;
+}
+
+.form__or-text {
+  display:flex;
+  align-items:center;
+  margin: 0 10px 0 10px;
+  font-size: 15px
+}

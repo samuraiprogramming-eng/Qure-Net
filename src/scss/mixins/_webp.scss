@@ -1,0 +1,9 @@
+@mixin webp($selector, $webp-image, $other-image){
+    .webp #{$selector}{
+        background-image: url("#{$img-path}/#{$webp-image}");
+    }
+    
+    .no-webp #{$selector}{
+        background-image: url("#{$img-path}/#{$other-image}");
+    }
+}

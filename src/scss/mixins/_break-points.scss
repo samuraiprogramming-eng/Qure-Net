@@ -1,0 +1,37 @@
+@mixin breakpoint($point) {
+  @if $point == x-small {														// min width : 0
+    @media (min-width: $screen-xs) { @content; }
+  }
+
+  @else if $point == small {													// min width : 576px
+    @media (min-width: $screen-sm) { @content; }
+  }
+
+  @else if $point == mid {														// min width : 768px
+    @media (min-width: $screen-md)  { @content; }
+  }
+
+  @else if $point == large {													// min width : 992px
+    @media (min-width: $screen-lg)  { @content; }
+  }
+
+  @else if $point == x-large {													// min width : 1200px
+    @media (min-width: $screen-xl)  { @content; }
+  }
+
+   @else if $point == wide {													// min width : 1600px
+    @media (min-width: $screen-wd)  { @content; }
+  }
+
+  @else if $point == isMobile {													//min width : 0 -- max width 767px
+	  @media (min-width: $screen-xs) and (max-width: $screen-md - 1) { @content; }
+  }
+	
+  @else if $point == isTablet {													//min width : 768px -- max width 991px
+	  @media (min-width: $screen-md) and (max-width: $screen-lg - 1) { @content; }
+  }
+
+  @else if $point == isCommon {													//min width : 0 -- max width 991px
+	  @media (min-width: $screen-xs) and (max-width: $screen-lg - 1) { @content; }
+  }
+}

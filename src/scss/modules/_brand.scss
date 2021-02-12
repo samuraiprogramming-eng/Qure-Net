@@ -1,0 +1,26 @@
+.brand{
+    display: flex;
+    fill: $brand-fill;
+    width: $brand-xs-width;
+    height: $brand-xs-height;
+    
+    @include breakpoint(small){
+        width: $brand-width;
+        height: $brand-height;
+    }
+
+    &--light{
+        fill: $brand-fill--light;
+    }
+    &--dark{
+        fill: $brand-fill--dark;
+    }
+    &--xs{
+        width: $brand-xs-width;
+        height: $brand-xs-height;
+    }
+    &--lg{
+        width: $brand-lg-width;
+        height: $brand-lg-height;
+    }
+}

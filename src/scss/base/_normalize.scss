@@ -1,0 +1,29 @@
+﻿
+::-moz-selection { 
+    background: $selection-color;
+    color: #fff;
+}
+
+::selection {
+    background: $selection-color;
+    color: #fff;
+}
+
+:-moz-placeholder, .form-control::-moz-placeholder ,
+::-webkit-input-placeholder, .form-control::-webkit-input-placeholder,
+:-ms-input-placeholder, .form-control::-ms-input-placeholder {
+    color: $input-placeholder-color;
+}
+
+html {
+  font-size: 13px;
+  @include breakpoint(mid){
+  	font-size:16px;
+  }
+  @include breakpoint(large){
+  	font-size:16px;
+  }
+  @include breakpoint(wide){
+  	font-size:18px;
+  }
+}

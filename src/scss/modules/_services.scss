@@ -1,0 +1,245 @@
+.sections-home-services {
+    position: relative;
+    z-index: 10;
+    .home-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 56%;
+        height: 200%;
+        fill: blanchedalmond;
+    }
+    .sections-info-title {
+        color: #00B7ED;
+        @include breakpoint(isMobile){
+           font-size: 28px;
+       }
+    }
+}
+.serv-content {
+    .serv-title__service {
+        color: #FF6DC1;
+        font-size: 70px;
+        font-weight: bold;
+        margin-bottom: 60px;
+    }
+    .serv-title__co {
+        color: #00B7ED;
+        margin-bottom: 60px;
+    }
+}
+
+.serv-icon--color {
+    fill:#FF6DC1; 
+}
+
+.serv-title__colore {
+    color:#FF6DC1; 
+}
+
+.serv-title__co {
+    color: #00B7ED;
+}
+
+// Style Contact Us 
+ .serv-content__us {
+      margin-top: 105px;
+     .content-us__titel {
+     font-size: 70px;
+     font-weight: 600;
+     color: #00B7ED;
+ }
+}
+.content-us__menu {
+    padding: 0em;
+}
+
+.serv__form {
+    .serv__form-title--us {
+        font-size: 70px;
+        font-weight: bold;
+        color: #00B7ED;
+        opacity: 1;
+        @include breakpoint(isMobile){
+            font-size: 45px;
+            font-weight: 700;
+            text-align: center;
+           }
+}
+
+   
+}
+.home-info-desc--us {
+    font-size: 22px;
+    font-weight: 300;
+    color: #939393;
+    text-align: center;
+    opacity: 1;
+    @include breakpoint(isMobile){
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+       }
+}
+
+@include breakpoint(isMobile){
+    .home-info {
+        .info__serv {
+            text-align: unset;
+            font-size: 32px;
+        }
+    }
+   
+   
+   }
+
+   @include breakpoint(isMobile){
+    .home-info {
+        .home-info-desc--serv {
+            text-align: unset;
+            padding: 0em;
+        }
+    }
+   
+   }
+
+//////
+.map iframe {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    @include breakpoint(isMobile){
+   
+        width: 100%;
+  
+    }
+}
+
+
+
+
+   /////
+ 
+   a {
+       text-decoration: none;
+       color: inherit;
+   }
+
+  
+   ul {
+       list-style: none;
+    //    padding: 0;
+     
+       .inner {
+           padding: 1em;
+           overflow: hidden;
+           display: none;
+         
+        //    &.show {
+        //      /*display: block;*/
+        //    }
+       }
+     
+       li {
+        //    margin: .5em 0;
+         
+           a.toggle {
+               width: 100%;
+               display: block;
+               position: relative;
+            //    background: #2c3e50;
+               color: #00B7ED;
+               padding: .75em;
+               border-radius: 0.15em;
+               transition: background .3s ease;
+               text-decoration: none;
+               @include breakpoint(isMobile){
+                font-size: 13px;
+               }
+             
+               &:hover {
+                   background: $color-primary;
+                   color: #fff;
+                   border-radius: 5px;
+               }
+               &::after {
+                content: "\276F";
+                position: absolute;
+                right: 5px;
+                width: 1em;
+                height: 1em;
+                text-align: center;
+                transition: all .35s;
+              }
+    
+           }
+       }
+   }
+
+
+   .home-info-span {
+    span {
+      color:#FF6DC1;
+      font-size: 20px;
+      font-weight: 300;
+      opacity: 1;
+}
+  .home-info-descrption {
+    color: #00B7ED;
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 1;
+    @include breakpoint(isMobile){
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+       }
+}
+.home-info-span1 {
+    font-size: 70px;
+    font-weight: bold;
+    opacity: 1;
+    @include breakpoint(isMobile){
+        font-size: 25px;
+        text-align: center;
+       }
+}
+.home-info-descrp {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0C2443;
+    opacity: 1;
+    @include breakpoint(isMobile){
+        font-size: 18px;
+       text-align: center;
+       }
+}
+.sections-desc-titel {
+    font-size: 64px;
+    @include breakpoint(isMobile){
+        font-size: 25px;
+       
+       }
+}
+
+   }
+
+   .accordion__active > a.toggle {
+       background-color:  #00B7ED;
+       color: #fff;
+       &::after {
+        transform: rotate(90deg);      
+    }
+   }
+
+   .home-info {
+    .home-info-desc--font {
+      font-size: 28px;
+    }
+   }
+  
+
+   
+
+   

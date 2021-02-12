@@ -1,0 +1,120 @@
+// Colors
+  $color-primary: #007AFF;
+$color-secondary: #F0F0F0;
+    $color-white: #fff;
+     $color-grey: #9E9E9E;
+ $color-grey-800: #424242;
+ $color-grey-900: #212121;
+     $color-pink: #ef0c69;
+     $color-text: #454545;
+
+
+// paths
+ $img-path: '../images';
+$font-path: '../../fonts';
+
+//  selection background color
+$selection-color: darken($color-secondary, 15%);
+
+//  header
+     $header-bg: #fff;
+$header-padding: 10px 0;
+
+// footer
+       $footer-bg: #fafafa;
+$footer-bottom-bg: #fff;
+  $footer-padding: 15px 0;
+
+//  brand
+//
+// brand--colors
+       $brand-fill: $color-primary;
+$brand-fill--light: #fff;
+ $brand-fill--dark: #000;
+// brand--size
+      $brand-width: 140px !default;
+     $brand-height: auto;
+   $brand-xs-width: 80px !default;
+  $brand-xs-height: auto;
+   $brand-lg-width: 160px !default;
+  $brand-lg-height: auto;
+
+  //icons
+$icons-padding: 8px !default;
+
+// nav-bar
+//
+          $nav-bar--bg: transparent;
+     $nav-bar--padding: 0;
+$nav-bar-space-between: 5px !default;
+// menu items
+$menu-link-color: #000;
+$menu-link-hover: $color-primary;
+// sub menu
+     $sub-menu--bg: $color-secondary;
+$sub-menu--padding: 7px 3px;
+$overlay-z-index: 10;
+
+// // Typography
+// //
+// // Font, line-height, and color for body text, headings, and more.
+// $font-size: 16px !default;
+// $line-height: 1.6 !default;
+// // Responsive Font
+// $xs-fontsize: 13px !default;
+// $sm-fontsize: 13px !default;
+// $mid-fontsize: 14px !default;
+// $large-fontsize: $font-size;
+// //Headings
+// $headings-font-family: $font-family;
+// $headings-font-weight: 400;
+// $headings-line-height: 1.5;
+// $headings-color: #000000;
+// //Headings size
+// $font-size-h1: 2.25rem; // ~36px
+// $font-size-h2: 1.875rem; // ~30px
+// $font-size-h3: 1.5rem; // ~24px
+// $font-size-h4: 1.125rem; // ~18px
+// $font-size-h5: 1rem; // ~16px
+// $font-size-h6: 0.75rem; // ~12px
+// //Links
+// $link-color: $primary-base;
+// $link-hover-color: lighten($link-color,10%);
+// $link-hover-decoration: none;
+// $gutterWidth: 16;
+// // 
+// // ## Reusable Components
+// $siteTopPadding: 15;
+// Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+$screen-xs: 0 !default;
+$screen-sm: 576px !default;
+$screen-md: 768px !default;
+$screen-lg: 992px !default;
+$screen-xl: 1200px !default;
+$screen-wd: 1600px !default;
+// // Breadcrumb
+// //
+// //##
+// $breadCrumb-bg: transparent;
+// $breadcrumb-link-color: rgba(255, 255, 255, 0.73);
+// $breadcrumb-current-color: #fff;
+// $subsiteHeader-bg: #f8f9f9;
+// // Page title
+// //
+// //##
+// $page-title-bg: $breadCrumb-bg;
+// $page-title-border-color: #e9e9e9;
+// $page-title-color: #565a5e;
+// // ##
+// $youtubeClr: #bf232b;
+// $twitterClr: #2aaae0;
+// $facebookClr: #3a589b;
+// $linkedinClr: #0e76a8;
+// $whatsappClr: #0dc143;
+// $instagramGradient: linear-gradient( 40deg, rgb(249,237,50) 0%, rgb(238,42,123) 69%, rgb(0,42,255) 100%);
+// $input-focus-color: $primary-base;
+// // colors
+// $color-gray--50: #fafafa;
+// $color-gray--200: #eee;

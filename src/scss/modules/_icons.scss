@@ -1,0 +1,21 @@
+.icon {
+    display: inline-flex;
+    padding: $icons-padding;
+    border-radius: 50%;
+    @include transition();
+
+    > svg {
+        fill: rgba(#000, .54);
+        width: 24px;
+        height: 24px;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: rgba(#000, .2);
+        cursor: pointer;
+        > svg{
+            fill: rgba(#000, .54);
+        }
+    }
+}
